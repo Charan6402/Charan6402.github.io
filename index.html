@@ -7,11 +7,31 @@
 
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
-      margin: 0;
     }
 
+    /* HEADER */
+    .header {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .header p {
+      margin-top: 10px;
+      color: #ccc;
+      font-size: 18px;
+    }
+
+    /* MAIN CONTENT */
     .container {
       max-width: 900px;
       margin: 40px auto;
@@ -19,24 +39,14 @@
       padding: 40px;
     }
 
-    h1 {
-      color: #222;
-    }
-
     h2 {
-      color: #444;
+      color: #333;
+      margin-top: 0;
     }
 
     p {
       color: #555;
       line-height: 1.6;
-    }
-
-    a {
-      color: #0073e6;
-      text-decoration: none;
-      font-weight: bold;
-      margin-right: 15px;
     }
 
     ul {
@@ -45,19 +55,46 @@
 
     li {
       margin-bottom: 8px;
+      color: #555;
+    }
+
+    /* LINKS */
+    .links a {
+      display: inline-block;
+      margin-right: 15px;
+      color: #0073e6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    /* FOOTER */
+    .footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+      font-size: 14px;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="container">
-    <h1>Hi, I’m Charan 👋</h1>
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Charan</h1>
+    <p>YouTuber | Germany 🇩🇪 | Student Life & Tech</p>
+  </div>
 
+  <!-- CONTENT -->
+  <div class="container">
     <h2>About Me</h2>
     <p>
       I’m a YouTuber documenting my journey as a Master’s student in Germany.
-      On this platform, I share:
+      Through my content, I share:
     </p>
 
     <ul>
@@ -68,11 +105,16 @@
     </ul>
 
     <h2>Find Me</h2>
-    <p>
+    <div class="links">
       <a href="https://www.youtube.com/" target="_blank">YouTube</a>
       <a href="https://www.instagram.com/" target="_blank">Instagram</a>
       <a href="https://github.com/Charan6402" target="_blank">GitHub</a>
-    </p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    © 2026 Charan • Built with GitHub Pages
   </div>
 
 </body>
