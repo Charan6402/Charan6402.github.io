@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-    /* RESET */
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -33,7 +32,7 @@
       font-size: 18px;
     }
 
-    /* MAIN CONTAINER */
+    /* MAIN CONTENT */
     .container {
       max-width: 1000px;
       margin: 40px auto;
@@ -44,6 +43,7 @@
     h2 {
       margin-top: 40px;
       margin-bottom: 15px;
+      color: #333;
     }
 
     p {
@@ -57,6 +57,7 @@
 
     li {
       margin-bottom: 8px;
+      color: #555;
     }
 
     /* VIDEO GRID */
@@ -69,7 +70,7 @@
 
     .video {
       position: relative;
-      padding-bottom: 56.25%; /* 16:9 */
+      padding-bottom: 56.25%;
       height: 0;
       overflow: hidden;
     }
@@ -108,7 +109,7 @@
       font-size: 14px;
     }
 
-    /* MOBILE OPTIMIZATION */
+    /* MOBILE */
     @media (max-width: 768px) {
       .header h1 {
         font-size: 28px;
@@ -119,8 +120,8 @@
       }
 
       .container {
-        padding: 25px;
         margin: 20px;
+        padding: 25px;
       }
 
       .video-grid {
@@ -155,49 +156,51 @@
     </ul>
 
     <h2>YouTube Videos</h2>
+
     <div class="video-grid">
-      <!-- REPLACE VIDEO IDs -->
-      <div class="video">
-       <iframe 
-  src="https://www.youtube-nocookie.com/embed/lCEXOEkFsss"
-  title="YouTube video player"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerpolicy="strict-origin-when-cross-origin"
-  allowfullscreen>
-</iframe>
- </div>
-
-  <div class="video">
-    <iframe
-      src="https://www.youtube-nocookie.com/embed/Dlz_ONkybhk"
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen>
-    </iframe>
-  </div>
-
-  <div class="video">
-    <iframe
-      src="https://www.youtube-nocookie.com/embed/6ztPglrB4tg"
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen>
-    </iframe>
-  </div>
 
       <div class="video">
-    <iframe
-      src="https://www.youtube-nocookie.com/embed/T3IPVHbrYEI"
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen>
-    </iframe>
-  </div>
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/lCEXOEkFsss"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
 
-</div>
+      <div class="video">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/Dlz_ONkybhk"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="video">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/6ztPglrB4tg"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="video">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/T3IPVHbrYEI"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+    </div>
+
     <h2>Find Me</h2>
     <div class="links">
       <a href="https://youtube.com/@saivlogs4666" target="_blank">YouTube Channel</a>
