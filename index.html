@@ -41,7 +41,7 @@
 
     h2 {
       color: #333;
-      margin-top: 0;
+      margin-top: 40px;
     }
 
     p {
@@ -56,6 +56,23 @@
     li {
       margin-bottom: 8px;
       color: #555;
+    }
+
+    /* YOUTUBE */
+    .video {
+      margin-top: 20px;
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+    }
+
+    .video iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
     }
 
     /* LINKS */
@@ -91,6 +108,7 @@
 
   <!-- CONTENT -->
   <div class="container">
+
     <h2>About Me</h2>
     <p>
       I’m a YouTuber documenting my journey as a Master’s student in Germany.
@@ -104,12 +122,22 @@
       <li>Tech learning and personal growth</li>
     </ul>
 
+    <h2>Latest YouTube Video</h2>
+    <div class="video">
+      <!-- REPLACE VIDEO ID BELOW -->
+      <iframe 
+        src="https://www.youtube.com/embed/VIDEO_ID_HERE" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
     <h2>Find Me</h2>
     <div class="links">
       <a href="https://www.youtube.com/" target="_blank">YouTube</a>
       <a href="https://www.instagram.com/" target="_blank">Instagram</a>
       <a href="https://github.com/Charan6402" target="_blank">GitHub</a>
     </div>
+
   </div>
 
   <!-- FOOTER -->
